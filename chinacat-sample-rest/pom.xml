@@ -16,5 +16,15 @@
             <groupId>com.chinacat.boot</groupId>
             <artifactId>chinacat-boot-starter-web-undertow</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.chinacat.boot</groupId>
+            <artifactId>chinacat-boot-starter-swagger</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.chinacat.boot</groupId>
+            <artifactId>chinacat-boot-model-response</artifactId>
+            <version>1.0.0</version>
+        </dependency>
     </dependencies>
 </project>
