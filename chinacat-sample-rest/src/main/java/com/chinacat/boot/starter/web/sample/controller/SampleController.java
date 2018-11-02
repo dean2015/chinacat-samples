@@ -22,4 +22,8 @@ public class SampleController {
         return RestResponse.<String>newInstance().success("Success", "Hello " + someone);
     }
 
+    @RequestMapping(value="/hello2", method= RequestMethod.GET)
+    public String hello2(@RequestParam("someone") String someone){
+        return "Hello " + someone;
+    }
 }
